@@ -1,0 +1,42 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #777;
+}
+.container{
+  width: 82rem;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  background-color: white;
+}
+.sidebar{
+  height: 500px;
+  max-width: 20rem;
+  width: 100%;
+  
+}
+.main{
+  max-width: 80rem;
+  width: 100%;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.divider{
+  height: 100%;
+  width: 1px;
+  background-color: gray;
+}
+.img-container{
+  overflow: auto;
+  display:flex;
+  max-width:80rem;
+  width: 100%;
+  border: 5px solid black;
+  position: absolute;
+}
